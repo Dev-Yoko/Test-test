@@ -33,7 +33,7 @@ function generateRandomUserAgentsList(count, filteredAgents) {
 }
 
 document.getElementById('generateBtn').addEventListener('click', async () => {
-    const apiKey = 'YOUR_API_KEY'; // Replace with your actual API key
+    const apiKey = 'e013a4628358a4fcba6b45c89711e420df99f9a48a7f373fef'; // Replace with your actual API key
     const userAgents = await fetchUserAgents(apiKey);
 
     const count = parseInt(document.getElementById('numAgents').value, 10);
